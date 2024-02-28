@@ -7,6 +7,15 @@ using System.Web.Http;
 
 namespace Ássingment_2.Controllers
 {
+        /// <summary>
+        /// Calculates the total number of ways to obtain a sum of 10 when rolling two dice with specified numbers of sides.
+        /// </summary>
+        /// <param name="m">The number of sides on the first die.</param>
+        /// <param name="n">The number of sides on the second die.</param>
+        /// <returns>
+        /// Returns a string message indicating the total count of combinations resulting in a sum of 10.
+        /// </returns>
+        
     public class RolleddiceController : ApiController
     {
         // GET: api/<RollTheDice_J2>
